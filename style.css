@@ -66,9 +66,10 @@ color: #E5E7EB;
     color:#F9FAF8;
 }
 
-.hero__btn{
+.hero__btn,
+.banner__btn{
     display:inline-block;
-    margin:22px;
+    margin:22px 0;
     border: none;
     background-color:#3882F6;
     color: #F9FAF8;
@@ -130,6 +131,35 @@ color: #E5E7EB;
         font-size:22px;
         font-weight: bold;
         color: #1F2937;
+    }
+    /* cta banner section */
+    .banner__content{
+        background-color:#3882F6;
+        padding: 54px;
+        max-width:900px;
+        margin: 0 auto;
+        border-radius:10px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .banner__box{
+        flex-basis:450px; 
+    }
+
+    .banner__heading{
+        font-size:22px;
+        font-weight:600;
+        color: #E5E7EB;
+    }
+
+    .banner__subtext{
+        color: #F9FAF8;
+    }
+
+    .banner__btn{
+        border:3px solid #F9FAF8;
     }
 /* footer styling */
 .footer{
