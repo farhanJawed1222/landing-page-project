@@ -51,7 +51,7 @@ color: #E5E7EB;
 .hero{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center;
     gap:48px;
 }
