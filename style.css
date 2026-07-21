@@ -77,6 +77,60 @@ color: #E5E7EB;
     padding:10px 28px;
     border-radius: 10px;
 }
+
+/* info section styling */
+    .info__heading{
+        text-align: center;
+        font-size:36px;
+        color: #1F2937;
+        font-weight: 900;
+        margin-bottom:48px;
+    }
+
+    .info_grid{
+        display: flex;
+        gap:48px;
+        justify-content: center;
+    }
+
+    .info__card{
+        width:185px;
+        flex-basis: auto;
+    }
+
+    .info__item{
+        border:4px solid #3882F6;
+        border-radius:10px;
+    }
+
+    .info__subtext{
+        color: #3a3a3b;
+        text-align:center;
+        font-size: 18px;
+    }
+
+    .quote{
+        background-color:#E5E7EB;
+    }
+
+    .quote__box{
+       max-width:800px;
+       margin:0 auto;
+    }
+
+    .quote__text{
+        font-size:36px;
+        font-weight: 300;
+        color:#1F2937;
+        font-style: italic;
+    }
+
+    .quote__author{
+        text-align: end;
+        font-size:22px;
+        font-weight: bold;
+        color: #1F2937;
+    }
 /* footer styling */
 .footer{
     color:#F9FAF8;
