@@ -1,0 +1,43 @@
+/* default reset */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* navigation bar styling */
+
+.nav__top,
+.footer{
+     padding:16px;
+    background-color:#1F2937;
+}
+.nav__top{
+   
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.nav__logo{
+    font-size:24px;
+    color: #F9FAF8;
+}
+
+.nav__menu{
+    list-style:none;
+    display:flex;
+    gap:32px;
+}
+
+.nav__link{
+    font-size:18px;
+    color: #E5E7EB;
+    text-decoration: none; 
+}
+
+/* footer styling */
+.footer{
+    color:#F9FAF8;
+    font-size:18px;
+    text-align: center;
+}
