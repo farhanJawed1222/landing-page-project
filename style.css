@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    line-height:1.5;
 }
 /* navigation bar styling */
 
@@ -29,12 +30,53 @@
     gap:32px;
 }
 
+.hero__text,
 .nav__link{
-    font-size:18px;
-    color: #E5E7EB;
+font-size:18px;
+color: #E5E7EB;
+}
+
+.nav__link{
     text-decoration: none; 
 }
 
+/* set width of all main box in  common */
+.main-box{
+    min-height:50vh;
+    padding:32px;
+}
+
+/* hero section */
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:72px;
+}
+
+.hero__content{
+    max-width:450px;
+}
+
+.hero__heading{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.hero__btn{
+    display:inline-block;
+    margin-top:12px;
+    border: none;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    font-size:18px;
+    font-weight:bold;
+    width:120px;
+    height:40px;
+    border-radius: 10px;
+}
 /* footer styling */
 .footer{
     color:#F9FAF8;
